@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0C5678;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(12, 86, 120, 0.8), rgba(12, 86, 120, 0.9)), url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+}
+
+.hero-section h1 {
+    margin-bottom: 1rem;
+}
+
+.hero-section .btn {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+}
+
+/* Featured Products */
+.featured-products h2 {
+    color: #0C5678;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #0C5678;
+    font-weight: 600;
+}
+
+.price {
+    color: #0C5678;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #0C5678;
+    border-color: #0C5678;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #094a68;
+    border-color: #094a68;
+}
+
+/* Footer */
+.footer {
+    background-color: #0C5678;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        height: 50vh;
+    }
+}
